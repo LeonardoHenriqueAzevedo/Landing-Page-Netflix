@@ -87,6 +87,18 @@ img{
     border-radius: 5px;
 }
 
+
+.showcase-content{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+}
+
 .btn-xl{
     font-size: 2rem;
     padding: 1.5rem 2.1rem;
