@@ -193,6 +193,23 @@ img{
     justify-content: center;
 }
 
+#tab-2-content .tab-2-content-top{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#tab-2-content .tab-2-content-bottom{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
 .text-xl{
     font-size: 2rem;
     margin-bottom: 1rem;
