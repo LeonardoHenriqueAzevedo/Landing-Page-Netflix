@@ -311,11 +311,29 @@ img{
     .btn-xl{
         font-size: 1.5rem;
     }
+
+    .text-xl{
+        font-size: 1.5rem;
+    }
+
+    .text-lg{
+        font-size: 1.5rem
+    }
+
+    .text-md{
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 960px) {
     .showcase{
         height: 70vh;
+    }
+
+    .showcase-top img{
+        top: 30%;
+        left: 5%;
+        transform: translate(0);
     }
 
     .showcase-content h1{
@@ -326,17 +344,27 @@ img{
         font-size: 1.3rem;
     }
 
+    .footer .footer-cols {
+        grid-template-columns: 1fr 1fr;
+    }
+
     .btn-xl {
         font-size: 1.3rem;
     }
 
-    .hide-sm{
-        display: none;
+    .text-xl{
+        font-size: 1.3rem;
     }
 
-    .showcase-top img{
-        top: 30%;
-        left: 5%;
-        transform: translate(0);
+    .text-lg{
+        font-size: 1.4rem
+    }
+
+    .text-md{
+        font-size: 1.2rem;
+    }
+
+    .hide-sm{
+        display: none;
     }
 }
