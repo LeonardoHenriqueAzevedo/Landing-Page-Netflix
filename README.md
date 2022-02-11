@@ -1,3 +1,7 @@
+<h1 align="center">
+<img alt="netflix_logo" title="netflix_logo" src="./images/logo.png">
+</h1>
+
 # ✔️ Project
 A Netflix landing page clone to improve my knowledge about front-end.
 
