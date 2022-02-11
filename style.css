@@ -1,5 +1,6 @@
 :root {
     --red: #e50914;
+    --dark-color: #141414;
 }
 
 *{
@@ -135,7 +136,21 @@ img{
     text-transform: uppercase;
 }
 
+/* Tabs */
+.tabs{
+    background: var(--dark-color);
+    padding-top: 1rem;
+    border-bottom: 3px solid #3d3d3d;
+}
 
+.tabs .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 .btn-lg{
     font-size: 1rem;
