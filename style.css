@@ -204,10 +204,11 @@ img{
 #tab-2-content .tab-2-content-bottom{
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .text-xl{
@@ -217,6 +218,11 @@ img{
 
 .text-lg{
     font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.text-md{
+    font-size: 1.3rem;
     margin-bottom: 1rem;
 }
 
