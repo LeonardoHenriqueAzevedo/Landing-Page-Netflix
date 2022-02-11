@@ -99,8 +99,24 @@ img{
     margin-top: 9rem;
 }
 
+.showcase-content h1{
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.1rem;
+    margin-bottom: 4rem;
+}
+
+.showcase-content p{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 1.25rem;
+    margin: 0 0 2rem;
+}
+
 .btn-xl{
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 1.5rem 2.1rem;
     text-transform: uppercase;
 }
