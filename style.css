@@ -386,6 +386,20 @@ img{
         grid-template-columns: 1fr 1fr;
     }
 
+    #tab-1-content .tab-1-content-inner{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    #tab-2-content .tab-2-content-top{
+        display: block;
+        text-align: center;
+    }
+
+    #tab-2-content .tab-2-content-bottom{
+        grid-template-columns: 1fr;
+    }
+
     #tab-3{
         opacity: hidden;
         visibility: hidden;
