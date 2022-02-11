@@ -173,6 +173,10 @@ img{
     cursor: pointer;
 }
 
+.tab-border{
+    border-bottom: var(--red) 4px solid;
+}
+
 .btn-lg{
     font-size: 1rem;
     padding: 0.8rem 1.3rem;
