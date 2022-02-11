@@ -414,6 +414,10 @@ img{
 }
 
 @media (max-width: 693px){
+    .showcase::after{
+        box-shadow: inset 80px 80px 250px #000, inset -80px -80px 250px #000;
+    }
+
     .showcase-content h1{
         font-size: 1.8rem;
     }
