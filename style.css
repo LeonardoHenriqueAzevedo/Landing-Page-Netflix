@@ -185,6 +185,17 @@ img{
     color: #fff;
 }
 
+/* Hide Content */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content{
+    display: none;
+}
+
+.show{
+    display: block !important;
+}
+
 #tab-1-content .tab-1-content-inner{
     display: grid;
     grid-template-columns: 1fr 1fr;
