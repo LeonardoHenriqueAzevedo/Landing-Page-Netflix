@@ -27,3 +27,12 @@ a{
     color: #fff;
     text-decoration: none;
 }
+
+
+p{
+    margin: 0.5rem 0;
+}
+
+img{
+    width: 100%;
+}
