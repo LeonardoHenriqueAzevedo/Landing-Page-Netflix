@@ -152,6 +152,13 @@ img{
     text-align: center;
 }
 
+.container{
+    max-width: 70%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
 .btn-lg{
     font-size: 1rem;
     padding: 0.8rem 1.3rem;
